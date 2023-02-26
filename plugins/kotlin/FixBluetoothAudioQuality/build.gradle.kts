@@ -5,16 +5,17 @@ aliucord.changelog.set("""
     1.0.2
     ======================
 
-    * fix not being able to switch between audio devices
+    * Fix not being able to switch between audio devices
 
     1.0.1
     ======================
 
-    * Fixed some bugs
+    * Fix some bugs
 
     1.0.0
     ======================
 
     Initial release
+
     ======================
 """.trimIndent())

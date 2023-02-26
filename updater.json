@@ -1,1 +1,1 @@
-{"FixBluetoothAudioQuality":{"minimumDiscordVersion":120111,"version":"1.0.1","build":"https://raw.githubusercontent.com/oSumAtrIX/aliucord-plugins/builds/%s.zip"}}
+{"FixBluetoothAudioQuality":{"minimumDiscordVersion":126021,"version":"1.0.2","build":"https://raw.githubusercontent.com/oSumAtrIX/aliucord-plugins/builds/%s.zip","changelog":"1.0.2\n======================\n\n* fix not being able to switch between audio devices\n\n1.0.1\n======================\n\n* Fixed some bugs\n\n1.0.0\n======================\n\nInitial release\n======================"}}

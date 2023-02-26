@@ -14,7 +14,7 @@ class FixBluetoothAudioQuality : Plugin() {
             PreHook { activateDevice ->
                 val discordAudioManager = activateDevice.thisObject as DiscordAudioManager
 
-                // Prevents DiscordAudioManager.activateDevice from being called.
+                // Prevents DiscordAudioManager.activateDevice from being called when audio mode is normal.
                 // The exact reason why this works is unknown.
                 discordAudioManager.activateDeviceProxy(activateDevice.args[0] as DiscordAudioManager.DeviceTypes)
             })

@@ -43,6 +43,7 @@ jobs:
 
       - name: Build Plugins
         run: |
+          shopt -s globstar
           cd $GITHUB_WORKSPACE/src
           chmod +x gradlew
           ./gradlew make generateUpdaterJson
